@@ -1,0 +1,351 @@
+body{
+    overflow-x: hidden;
+    background-color: #c3c3c3;
+}
+
+
+/*************
+Nav Bar styling
+**************/
+
+nav.navbar{
+    box-shadow: 2px 2px 12px rgb(0 0 0 / 30%);
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: #999999 !important;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1.8px;
+}
+
+.navbar-brand span{
+    color: orange;
+}
+
+.nav-link{
+    color: #999999 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link:hover{
+    text-decoration: underline;
+    color: orange !important;
+    transition: .9s !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.bg-light{
+    background-color: #1e1e1e !important;
+}
+
+/**************
+Banner Styling
+**************/
+
+.img-banner{
+    padding-top: 50px;
+}
+.banner{
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+@media  (max-width: 990px) {
+    .info{left: 36%;}
+}
+
+@media  (max-width: 325px) {
+    .info{left: 40%;}
+}
+
+@media  (max-width: 360px) {
+    .info{left: 48%;}
+}
+
+@media  (max-width: 280px) {
+    .info{left: 40%;}
+
+    .info h1{
+        font-size: 30px !important;
+    }
+}
+
+@media  (max-width: 200px) {
+    .info{left: 50%;}
+
+    .info h1{
+        font-size: 30px !important;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+}
+.info h1{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.info p{
+    font-size: 20px;
+    color: #888e94;
+    font-weight: 600;
+}
+
+.info p span{
+    color: orange;
+}
+
+.hire{
+    padding-top: 10px;
+}
+
+.btn-primary{
+    background-color: orange !important;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/***********
+About-me styling
+************/
+
+.about-me{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.abt-img img{
+    width: 300px;
+    height: 300px;
+}
+@media  (max-width:992px) {
+    .abt-img{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .para{
+        padding: 20px 0;
+    }
+}
+
+.para{
+    padding-top: 50px;
+}
+
+.download .btn-primary{
+    background-color: orange !important;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.download .btn-primary:hover{
+    color: orange;
+    background-color: white !important;
+    border:1px solid orange !important;
+}
+
+/****************
+My Skills Styling
+*****************/
+
+.power-bar p{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.progress-bar{
+    background-color: orange;
+}
+
+.skills h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*****************
+Contact-me Styling
+******************/
+
+.contact-header{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.cont{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cont svg{
+    fill: orange;
+}
+.name{
+    display: block;
+    padding-left: 20px;
+}
+
+.name a{
+    text-decoration: none;
+    color: black;
+}
+
+.name a:hover{
+    text-decoration: underline;
+}
+
+.name-email{
+    display: flex;
+}
+
+.ml{
+    margin-left: 5px;
+}
+
+/*****************
+ Social Icons Styling
+*****************/
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: #c1c1c1;
+    margin: 5px;
+    transition: 1s;
+}
+
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 1s;
+    text-align: center;
+}
+
+.social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.social-btn:hover span {
+    padding: 2px;
+    width: max-content;
+}
+
+#twitter svg {
+    fill: #1da1f2;
+}
+
+#linkedin svg {
+    fill: #0e76a8;
+}
+
+#github {
+    fill: #333;
+}
+
+.social-btn{
+    height: 30px;
+}
+    
+
+/***************
+Footer Styling
+***************/
+
+.foot{
+    margin: 0;
+    padding-top: 15px;
+    background-color: #1e1e1e;
+    height: 50px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
+
+.copyright h6{
+    padding-bottom: 0 !important;
+    margin-bottom: 0;
+}
+
+.copyright h6 span{
+    color: orange;
+}
+
+
+/****************
+My-Works Styling
+*****************/
+
+
+.card-body:hover{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    transition: .5;
+}
+
+.card-title{
+    padding-top:5px;
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.card-body img{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-works{
+    margin-bottom: 20px;
+}
+
+.work-head h1{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
